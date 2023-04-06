@@ -1,0 +1,7 @@
+lib
+**/*.js
+**/*.cjs
+node_modules
+coverage
+.idea
+.DS_Store

@@ -1,0 +1,4 @@
+lib
+**/*.js
+**/*.cjs
+node_modules

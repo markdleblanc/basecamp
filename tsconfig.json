@@ -1,0 +1,16 @@
+{
+    "extends": "@tsconfig/node18-strictest/tsconfig.json",
+    "compilerOptions": {
+        "module": "CommonJS",
+        "outDir": "lib",
+        "declaration": true
+    },
+    "include": ["**/*.ts"],
+    "exclude": [
+        "node_modules",
+        "lib",
+        "jest.config.js",
+        "**/*.spec.ts",
+        "**/*.test.ts"
+    ]
+}
